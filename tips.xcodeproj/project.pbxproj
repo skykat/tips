@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C4F79B51AE204E8008E07AE /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C4F79B41AE204E8008E07AE /* Settings.bundle */; };
 		9CE9B9D91ADCA1C300A0EC97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE9B9D81ADCA1C300A0EC97 /* AppDelegate.swift */; };
 		9CE9B9DB1ADCA1C300A0EC97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE9B9DA1ADCA1C300A0EC97 /* ViewController.swift */; };
 		9CE9B9DE1ADCA1C300A0EC97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE9B9DC1ADCA1C300A0EC97 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C4F79B41AE204E8008E07AE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		9CE9B9D31ADCA1C300A0EC97 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE9B9D71ADCA1C300A0EC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CE9B9D81ADCA1C300A0EC97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				9CE9B9D81ADCA1C300A0EC97 /* AppDelegate.swift */,
 				9CE9B9DA1ADCA1C300A0EC97 /* ViewController.swift */,
 				9CE9B9DC1ADCA1C300A0EC97 /* Main.storyboard */,
+				9C4F79B41AE204E8008E07AE /* Settings.bundle */,
 				9CE9B9DF1ADCA1C300A0EC97 /* Images.xcassets */,
 				9CE9B9E11ADCA1C300A0EC97 /* LaunchScreen.xib */,
 				9CE9B9D61ADCA1C300A0EC97 /* Supporting Files */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4F79B51AE204E8008E07AE /* Settings.bundle in Resources */,
 				9CE9B9DE1ADCA1C300A0EC97 /* Main.storyboard in Resources */,
 				9CE9B9E31ADCA1C300A0EC97 /* LaunchScreen.xib in Resources */,
 				9CE9B9E01ADCA1C300A0EC97 /* Images.xcassets in Resources */,
@@ -407,6 +411,7 @@
 				9CE9B9F41ADCA1C300A0EC97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CE9B9F51ADCA1C300A0EC97 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				9CE9B9F71ADCA1C300A0EC97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

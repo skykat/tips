@@ -18,9 +18,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        updateDefaultBillAmount()
+        updateDefaultTipControl()
     }
+    
+    // update the default percentage from the settings page
+    private func updateDefaultTipControl() {
+        let userDefaults = NSUserDefaults.standardUserDefaults()
+        tipControl.selectedSegmentIndex = userDefaults.integerForKey("percentage_preference")
+    }
+    
+    // update the default bill amount upon app restart
+    private func updateDefaultBillAmount() {
+        let userDefaults = NSUserDefaults.standardUserDefaults()
+        billField.text = userDefaults.stringForKey("bill_amount")
 
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -40,8 +55,16 @@ class ViewController: UIViewController {
         
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
+        
+        let userDefaults = NSUserDefaults.standardUserDefaults()
+        userDefaults.setValue(billField.text, forKey: "bill_amount")
     }
 
+    @IBAction func launchSettings(sender: AnyObject) {
+        let settingsUrl = NSURL(string: UIApplicationOpenSettingsURLString)
+        UIApplication.sharedApplication().openURL(settingsUrl!)
+    }
+    
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
     }
