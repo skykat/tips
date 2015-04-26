@@ -27,6 +27,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C07E60B1AEC915F00800A1E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		9C07E60C1AEC915F00800A1E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9C07E60D1AEC93F100800A1E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		9C07E60E1AEC93F100800A1E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		9C4F79B41AE204E8008E07AE /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		9CE9B9D31ADCA1C300A0EC97 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE9B9D71ADCA1C300A0EC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -244,6 +248,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				9CE9B9DD1ADCA1C300A0EC97 /* Base */,
+				9C07E60B1AEC915F00800A1E /* es */,
+				9C07E60D1AEC93F100800A1E /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -252,6 +258,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				9CE9B9E21ADCA1C300A0EC97 /* Base */,
+				9C07E60C1AEC915F00800A1E /* es */,
+				9C07E60E1AEC93F100800A1E /* fr */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

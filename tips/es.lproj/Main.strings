@@ -1,0 +1,27 @@
+
+/* Class = "IBUILabel"; text = "Total"; ObjectID = "9hq-d4-Tg2"; */
+"9hq-d4-Tg2.text" = "Total";
+
+/* Class = "IBUILabel"; text = "$10.00"; ObjectID = "GIB-Ba-VWQ"; */
+"GIB-Ba-VWQ.text" = "$10.00";
+
+/* Class = "IBUISegmentedControl"; RT2-RZ-wFJ.segmentTitles[0] = "18%"; ObjectID = "RT2-RZ-wFJ"; */
+"RT2-RZ-wFJ.segmentTitles[0]" = "18%";
+
+/* Class = "IBUISegmentedControl"; RT2-RZ-wFJ.segmentTitles[1] = "20%"; ObjectID = "RT2-RZ-wFJ"; */
+"RT2-RZ-wFJ.segmentTitles[1]" = "20%";
+
+/* Class = "IBUISegmentedControl"; RT2-RZ-wFJ.segmentTitles[2] = "22%"; ObjectID = "RT2-RZ-wFJ"; */
+"RT2-RZ-wFJ.segmentTitles[2]" = "22%";
+
+/* Class = "IBUILabel"; text = "Tip"; ObjectID = "WNL-id-Tw1"; */
+"WNL-id-Tw1.text" = "Tip";
+
+/* Class = "IBUILabel"; text = "$100.00"; ObjectID = "bkC-NM-FSy"; */
+"bkC-NM-FSy.text" = "$100.00";
+
+/* Class = "IBUIButton"; normalTitle = "Settings"; ObjectID = "hxI-th-nD1"; */
+"hxI-th-nD1.normalTitle" = "Settings";
+
+/* Class = "IBUILabel"; text = "Bill Amount"; ObjectID = "wDL-cG-Rqo"; */
+"wDL-cG-Rqo.text" = "Bill Amount";
